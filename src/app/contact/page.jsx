@@ -6,7 +6,6 @@ import { IoIosMail } from "react-icons/io";
 import { ImLocation } from "react-icons/im";
 import { Link } from "@chakra-ui/next-js";
 import SocialIcons from "../../components/SocialIcons";
-import MapBox from "./MapBox";
 import { RevealWrapper } from 'next-reveal'
 
 
@@ -39,8 +38,8 @@ const Contact = () => {
                 </Link>
               </Tooltip>
 
-              <Tooltip label="Open Map">
-                  <Text className="contact-text-span" my={3} onClick={onOpen} cursor="pointer">
+              <Tooltip label="">
+                  <Text className="contact-text-span" my={3} cursor="pointer">
                     <Icon as={ImLocation} mx={2} />
                     <span>Pune, Maharashtra, India</span>
                   </Text>
@@ -51,7 +50,6 @@ const Contact = () => {
         </RevealWrapper>
         <ContactForm />
       </SimpleGrid>
-      <MapBox {...{isOpen, onOpen, onClose }}/>
     </Center>
   );
 };
