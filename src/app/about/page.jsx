@@ -43,14 +43,13 @@ const Page = () => {
                 </Heading>
                 <br />
                 <Text>
-                  I&apos;m <span className="name">Ayush</span>, a passionate
-                  software developer. I specialize in{" "}
-                  <span className="tech">Full Stac Development</span>, crafting
-                  seamless user experiences and robust backend solutions. With a
-                  knack for problem-solving, I thrive on creating elegant code
-                  that makes an impact. I&apos;m always exploring new tools and
-                  techniques to stay at the forefront of the ever-evolving tech
-                  landscape.
+                  I&apos;m <span style={{ fontWeight: 'bold'}}>Ayush</span>, a dedicated
+                  <span style={{ fontWeight: 'bold'}}>{" "}
+                  Software Developer {" "}
+                  </span>
+                  with a passion for crafting intuitive user experiences and powerful backend solutions. 
+                  I specialize in{" "} <span className="tech">Full Stack Development</span> leveraging my problem-solving skills to create elegant code that delivers results.
+                  I&apos;m constantly exploring innovative tools and techniques to stay ahead in the dynamic tech industry.
                 </Text>
                 <br />
                 <Text>

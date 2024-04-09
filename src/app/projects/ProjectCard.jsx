@@ -14,6 +14,7 @@ const ProjectCard = (props) => {
           style={{
             fontSize: "1.5rem",
             marginBottom: "5px",
+            marginTop:'15px',
             textAlign: "center",
             fontFamily:"Righteous"
           }}
