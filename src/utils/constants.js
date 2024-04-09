@@ -300,24 +300,24 @@ export const socialMediaLinks = [
     backgroundColor: "gray.700",
     hoverColor: "gray.600",
   },
-  {
-    href: "https://www.instagram.com/ayushhh_k/",
-    icon: FaInstagram,
-    backgroundColor: "social.instagram",
-    hoverColor: "social.instagramHover",
-  },
+  // {
+  //   href: "https://www.instagram.com/ayushhh_k/",
+  //   icon: FaInstagram,
+  //   backgroundColor: "social.instagram",
+  //   hoverColor: "social.instagramHover",
+  // },
   {
     href: "https://www.linkedin.com/in/ayush-kumar-211a0220b/",
     icon: FaLinkedin,
     backgroundColor: "social.linkedin",
     hoverColor: "social.linkedinHover",
   },
-  {
-    href: "https://twitter.com/ayushhh_k",
-    icon: FaTwitter,
-    backgroundColor: "social.twitter",
-    hoverColor: "social.twitterHover",
-  },
+  // {
+  //   href: "https://twitter.com/ayushhh_k",
+  //   icon: FaTwitter,
+  //   backgroundColor: "social.twitter",
+  //   hoverColor: "social.twitterHover",
+  // },
   {
     href: "https://codeforces.com/profile/ayushsp19",
     icon: FaHashnode,
